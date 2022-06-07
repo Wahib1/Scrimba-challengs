@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" class="href" />
+    <title>Unit conversion App</title>
+  </head>
+  <body>
+    <main>
+      <div class="unitValue">
+        <p style="font-size: 1.5em">Metric/Imperial unit conversion</p>
+        <input
+          id="inputVal"
+          type="number"
+          placeholder="Type the number to convert"
+        />
+        <button id="btn">convert</button>
+      </div>
+      <div class="unitMeasures">
+        <p class="unitHeaders" style="font-weight: bold; font-size: 1.1em">
+          Length (Meter/Feet)
+        </p>
+        <span class="unitInput">0</span><span> meters = </span>
+        <span id="meterToFeet"> 0 </span><span> Feet </span> ||
+        <span class="unitInput">0</span><span> feet = </span>
+        <span id="feetToMeter"> 0 </span><span> Meter </span>
+        <p class="unitHeaders" style="font-weight: bold; font-size: 1.1em">
+          Volume (Liters/Gallons)
+        </p>
+        <span class="unitInput">0</span><span> Liters = </span>
+        <span id="litersToGallons"> 0 </span><span> Gallons </span> ||
+        <span class="unitInput">0</span><span> Gallons = </span>
+        <span id="gallonsToLiters"> 0 </span><span> Liters </span>
+        <p class="unitHeaders" style="font-weight: bold; font-size: 1.1em">
+          Mass (Kilograms/Pounds)
+        </p>
+        <span class="unitInput">0</span><span> Kilos = </span>
+        <span id="kilosToPounds"> 0 </span><span> Pounds </span> ||
+        <span class="unitInput">0</span><span> Pounds = </span>
+        <span id="poundsToKilos"> 0 </span><span> Kilos </span>
+      </div>
+      <nav>
+        <div><div class="2"></div></div>
+      </nav>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
