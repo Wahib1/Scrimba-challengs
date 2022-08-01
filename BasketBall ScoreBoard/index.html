@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Basket Ball Score Board</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="main-board">
+        <div class="first-team">
+          <h1>Home</h1>
+          <div id="player-home">0</div>
+          <div class="score-increment-sec">
+            <div class="points home-points">+1</div>
+            <div class="points home-points">+2</div>
+            <div class="points home-points">+3</div>
+          </div>
+        </div>
+        <div class="second-team">
+          <h1>Guest</h1>
+          <div id="player-guest">0</div>
+          <div class="score-increment-sec">
+            <div class="points guest-points">+1</div>
+            <div class="points guest-points">+2</div>
+            <div class="points guest-points">+3</div>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; padding: 20px">
+        <button id="resetBtn" style=" font-size: 2em; padding: 5px 10px; border-radius: 8px; background-color: rgb(249, 83, 83);">Reset</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
